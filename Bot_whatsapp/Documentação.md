@@ -26,20 +26,3 @@ O objetivo deste projeto é praticar conceitos de automação com Python, utiliz
 O programa define um número de telefone no formato internacional, cria uma mensagem personalizada e calcula o horário atual do sistema. Em seguida, adiciona um minuto ao horário atual para permitir que o navegador seja aberto e o WhatsApp Web seja carregado corretamente.
 
 Depois disso, a função `sendwhatmsg()` da biblioteca `pywhatkit` é utilizada para agendar o envio da mensagem.
-
-## Exemplo de Uso
-
-```python
-import pywhatkit as kit
-import datetime
-
-numero = "+55DDDNUMERO"
-mensagem = "Olá! Esse é um bot testando automação no WhatsApp."
-
-agora = datetime.datetime.now()
-hora = agora.hour
-minuto = agora.minute + 1
-
-kit.sendwhatmsg(numero, mensagem, hora, minuto)
-
-print("Mensagem agendada com sucesso!")
