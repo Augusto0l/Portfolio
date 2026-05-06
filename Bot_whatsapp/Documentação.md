@@ -52,16 +52,6 @@ python nome_do_arquivo.py
 
 Ao executar o programa, o navegador será aberto automaticamente com o WhatsApp Web. Após o carregamento da página, a mensagem será enviada para o número definido no código, no horário programado.
 
-## Observações
-
-Por segurança e privacidade, recomenda-se não deixar números de telefone reais expostos no repositório público. O ideal é substituir o número real por um exemplo genérico, como:
-
-```python
-numero = "+55DDDNUMERO"
-```
-
-Dessa forma, evita-se a exposição de dados pessoais no GitHub.
-
 ## Possíveis Melhorias Futuras
 
 - Permitir que o usuário informe o número e a mensagem pelo terminal;
