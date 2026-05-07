@@ -131,4 +131,4 @@ Novos projetos serão adicionados conforme avanço nos estudos, desenvolvo novas
 
 ## Autor
 
-Desenvolvido por Augusto.
+Desenvolvido por Pedro Augusto.
