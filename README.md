@@ -33,23 +33,6 @@ Neste repositório, é possível encontrar projetos relacionados a:
 
 Cada projeto está separado em sua própria pasta para facilitar a navegação e a manutenção dos arquivos.
 
-Exemplo de organização:
-
-```text
-Portfolio/
-│
-├── Bot_whatsapp/
-├── Catálogo de Séries e Filmes em Python/
-├── Coletor_Dados_Web/
-├── Contador_Regressivo/
-├── Gerenciador de Estoque com SQLite/
-├── Jogo_Adivinhação/
-├── Pedra_Papel_Tesoura/
-├── Quiz_Interativo/
-├── Sistema de Vendas em Python/
-└── README.md
-```
-
 Cada pasta pode conter:
 
 - Código-fonte do projeto;
